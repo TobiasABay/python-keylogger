@@ -1,0 +1,14 @@
+Download Git: https://git-scm.com/downloads 
+Download Python: https://www.python.org/downloads/
+
+Add til Path Environment
+
+git clone https://github.com/davidbombal/python-keylogger.git
+cd python-keylogger
+python -m venv keylogger_env
+.\keylogger_env\Scripts\Activate
+pip install -r requirements.txt
+py keylogger.py
+
+
+Tillade kørsel af scriptet: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
